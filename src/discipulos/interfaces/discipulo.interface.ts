@@ -1,5 +1,5 @@
 import { Document } from 'mongoose';
-import { Persona } from 'src/personas/interfaces/personas.interface';
+import { Persona } from '../../personas/interfaces/personas.interface';
 
 export interface Discipulo extends Document {
     _id: any;
